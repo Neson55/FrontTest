@@ -8,6 +8,17 @@ function App() {
       <div className="MainText">
       Do you want to Learn more About cryptocurrencies<span className="spanMainText"> quickly and easily ?</span>
       </div>
+      <div className='OptionalText'>
+      Subscribe to our channel to learn more
+      </div>
+      <div className='Advantages'>
+          <div className='Subscribe'>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+      </div>
       <div className="Frame19">
         <div className="app-store-svgrepo-com1">
           <svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">

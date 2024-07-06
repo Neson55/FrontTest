@@ -6,10 +6,12 @@ left: 6461px;
 gap: 0px;
 opacity: 0px;
 background-color:#1C1A1A;
+
 }
 
 .Frame19 {
-  width: Fixed (132px)px;
+  position: fixed;
+  width:  (132px)px;
   height: Hug (54px)px;
   top: 830px;
   left: 214px;
@@ -18,6 +20,7 @@ background-color:#1C1A1A;
   border-radius: 12px 0px 0px 0px;
   opacity: 0px;
   background: #302D2D57;
+
 }
 
 .app-store-svgrepo-com1 {
@@ -26,9 +29,11 @@ height: 24px;
 padding: 1.14px 2.92px 1.74px 2.92px;
 gap: 0px;
 opacity: 0px;
+
 }
 
 .Frame8 {
+  position: fixed;
   width: Hug (38px)px;
 height: Hug (56px)px;
 gap: 2px;
@@ -38,6 +43,7 @@ angle: -90 deg;
 }
 
 .p1 {
+  position: fixed;
   width: 56px;
 height: 12px;
 gap: 0px;
@@ -49,9 +55,11 @@ font-weight: 400;
 line-height: 12px;
 text-align: left;
 background: #F2F2F266;
+position: absolute;
 }
 
 .p2 {
+  position: fixed;
   width: 56px;
 height: 24px;
 gap: 0px;
@@ -63,9 +71,11 @@ font-weight: 400;
 line-height: 24px;
 text-align: left;
 background: #F2F2F266;
+
 }
 
 .MainText{
+position: fixed;
   width: 1008px;
 height: 303px;
 top: 48px;
@@ -78,7 +88,7 @@ font-weight: 700;
 line-height: 100.8px;
 text-align: left;
 color: #F2F2F2;
-;
+text-transform: uppercase;
 }
 
 .spanMainText{
@@ -88,5 +98,36 @@ font-weight: 700;
 line-height: 100.8px;
 text-align: left;
 background: linear-gradient(92.01deg, rgba(124, 111, 207, 0.97) 0%, rgba(116, 174, 170, 0.95) 49.13%, #6FCF97 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+}
+
+.OptionalText{
+  position: fixed;
+  width: 621px;
+height: 41px;
+top: 395px;
+left: 62px;
+gap: 0px;
+opacity: 0px;
+font-family: Teko;
+font-size: 34px;
+font-weight: 400;
+line-height: 40.8px;
+text-align: left;
+color: #828282;
+
+}
+
+.Advantages{
+  position: fixed;
+  width: Hug (554px)px;
+height: Hug (74px)px;
+top: 524px;
+left: 62px;
+gap: 126px;
+opacity: 0px;
 
 }
